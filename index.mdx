@@ -1,96 +1,273 @@
 ---
-title: "Introdução"
-description: "Welcome to your project"
+title: "Bem-vindo à Nikkita"
+description: "Transforme o histórico da sua loja em públicos que vendem"
+mode: "custom"
 ---
 
-<Tip>
-  Esta seção é para quem quer **entender o produto** antes de conectar a loja. Se você já quer sair usando, vá direto para [Primeiros passos](/primeiros-passos).
-</Tip>
+{/* ---------- HERO ---------- */}
 
-## Em uma frase
+<div
+  style={{
+  position: "relative",
+  textAlign: "center",
+  padding: "88px 20px",
+  background: "linear-gradient(135deg, #062A43 0%, #0B5A8C 55%, #0094E4 100%)",
+  borderBottom: "1px solid rgba(255,255,255,0.08)"
+}}
+>
+  <h1 style={{ fontSize: "42px", fontWeight: "600", marginBottom: "16px", color: "#fff", lineHeight: "1.15" }}>
+    Bem-vindo à Nikkita
+  </h1>
 
-A Nikkita transforma o histórico de vendas do seu e-commerce em **públicos prontos para anunciar**.
+  <p
+    style={{
+    maxWidth: "760px",
+    margin: "0 auto",
+    opacity: 0.82,
+    fontSize: "18px",
+    fontWeight: "300",
+    color: "#fff",
+    lineHeight: "1.6"
+  }}
+  >
+    Sua base de clientes vira público de anúncio — e se atualiza sozinha.<br />
+    Conecte sua Nuvemshop, escolha o segmento, ative no Meta Ads.
+  </p>
+</div>
 
----
+{/* ---------- BIFURCAÇÃO POR PERFIL ---------- */}
 
-## O problema que a Nikkita resolve
+<div
+  style={{
+  padding: "56px 20px 32px",
+  maxWidth: "900px",
+  margin: "0 auto",
+  borderBottom: "1px solid var(--border, rgba(128,128,128,0.15))"
+}}
+>
+  <h2 style={{ fontSize: "20px", fontWeight: "600", marginBottom: "8px", textAlign: "center" }}>
+    Por onde você quer começar?
+  </h2>
 
-Sua loja já sabe quem são seus melhores clientes. Ela sabe quem comprou três vezes no último ano, quem gastou muito e sumiu, quem colocou no carrinho e desistiu ontem.
+<p
+  style={{
+    opacity: 0.6,
+    marginBottom: "28px",
+    textAlign: "center",
+    fontSize: "14px",
+  }}
+>
+  Escolha o caminho que faz mais sentido para você agora.
+</p>
 
-O problema é que essa informação fica presa. Para usá-la em campanha, hoje você precisa:
+  <div
+    style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+    gap: "16px"
+  }}
+  >
+    <a href="/introducao" style={{ textDecoration: "none" }}>
+      <div
+        style={{
+        padding: "28px",
+        borderRadius: "12px",
+        border: "2px solid #0094E4",
+        background: "rgba(0, 148, 228, 0.07)",
+        height: "100%"
+      }}
+      >
+        <div style={{ fontSize: "28px", marginBottom: "12px" }}>🛍️</div>
 
-- Pedir para alguém exportar uma planilha da loja
-- Filtrar na mão para achar quem realmente importa
-- Subir o CSV no Gerenciador de Anúncios, e depois no Google, e depois no TikTok
-- Repetir tudo isso na semana seguinte, porque a lista já envelheceu
+        <div style={{ fontSize: "17px", fontWeight: "700", color: "#0094E4", marginBottom: "8px" }}>
+          Ainda estou entendendo
+        </div>
 
-É um trabalho repetitivo que consome horas do gestor de tráfego e, na prática, acaba não sendo feito com a frequência necessária. Resultado: verba indo para público frio enquanto sua base quente fica parada.
+        <div style={{ fontSize: "14px", opacity: 0.7, lineHeight: "1.6" }}>
+          Quero saber o que a Nikkita faz, que problema ela resolve e se faz sentido para a minha operação.
+        </div>
 
-A Nikkita elimina essa etapa manual. Você conecta a loja uma vez e os públicos passam a existir, se atualizar e chegar nas plataformas de anúncio sozinhos.
+        <div style={{ marginTop: "16px", fontSize: "13px", color: "#0094E4", fontWeight: "600" }}>
+          Começar por aqui →
+        </div>
+      </div>
+    </a>
 
----
+    <a href="/primeiros-passos" style={{ textDecoration: "none" }}>
+      <div
+        style={{
+        padding: "28px",
+        borderRadius: "12px",
+        border: "1px solid var(--border, rgba(128,128,128,0.2))",
+        background: "rgba(128,128,128,0.04)",
+        height: "100%"
+      }}
+      >
+        <div style={{ fontSize: "28px", marginBottom: "12px" }}>🚀</div>
 
-## O que você pode fazer com a Nikkita
+        <div style={{ fontSize: "17px", fontWeight: "700", marginBottom: "8px" }}>
+          Já contratei, quero configurar
+        </div>
 
-<CardGroup cols={2}>
-  <Card title="Conectar sua loja em minutos" icon="plug">
-    Integração direta com Shopify e Nuvemshop. Você autoriza o acesso e a Nikkita importa seu histórico de clientes e pedidos automaticamente.
-  </Card>
+        <div style={{ fontSize: "14px", opacity: 0.7, lineHeight: "1.6" }}>
+          Quero conectar minha loja, ver meus segmentos e colocar o primeiro público no ar hoje.
+        </div>
 
-  <Card title="Enxergar sua base segmentada" icon="chart-pie">
-    A Nikkita classifica todos os seus clientes automaticamente: quem são seus campeões, quem está em risco de sumir, quem já sumiu e quem acabou de comprar.
-  </Card>
+        <div style={{ marginTop: "16px", fontSize: "13px", opacity: 0.55, fontWeight: "600" }}>
+          Ver primeiros passos →
+        </div>
+      </div>
+    </a>
 
-  <Card title="Ativar nas plataformas de anúncio" icon="arrows-rotate">
-    Envie qualquer público para Meta Ads com um clique.
-  </Card>
+  </div>
+</div>
 
-  <Card title="Exportar em CSV" icon="file-csv">
-    Prefere subir manualmente ou usar em outra ferramenta? Baixe qualquer segmento em CSV quando quiser.
-  </Card>
+{/* ---------- O QUE É ---------- */}
 
-  <Card title="Trabalhar com segurança" icon="shield-check">
-    Os dados de contato dos seus clientes são criptografados antes de sair da Nikkita, seguindo o padrão exigido pelas próprias plataformas de anúncio.
-  </Card>
-</CardGroup>
+<div
+  style={{
+  padding: "60px 20px",
+  maxWidth: "1100px",
+  margin: "0 auto",
+  borderBottom: "1px solid var(--border, rgba(128,128,128,0.15))"
+}}
+>
+  <h2 style={{ fontSize: "22px", fontWeight: "600", marginBottom: "12px" }}>
+    O que é a Nikkita?
+  </h2>
 
----
+<p
+  style={{
+    opacity: 0.75,
+    marginBottom: "28px",
+    lineHeight: "1.75",
+    maxWidth: "760px",
+  }}
+>
+  A Nikkita conecta sua loja ao Meta Ads e mantém seus públicos sempre
+  atualizados — sem planilha, sem CSV, sem trabalho manual. Ela lê sua base de
+  clientes, classifica automaticamente e sincroniza os segmentos direto no
+  Gerenciador de Anúncios.
+</p>
 
-## Como funciona, em uma linha
+  <div
+    style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+    gap: "16px"
+  }}
+  >
+    <Card title="Público sempre atualizado" icon="arrows-rotate" horizontal>
+      Você define o critério uma vez. Quem entra e quem sai do grupo, a Nikkita atualiza sozinha, todo dia.
+    </Card>
 
-```text
-Sua loja → Nikkita organiza e segmenta → Você escolhe o público → Meta recebe sozinho. Depois da primeira configuração, esse ciclo roda sem você precisar abrir a plataforma.
-```
+    <Card title="Sem planilha, sem fórmula" icon="chart-line" horizontal>
+      Você vê "clientes em risco de abandono" e um botão pra ativar. O resto é com a gente.
+    </Card>
 
----
+  </div>
+</div>
 
-## Para quem é a Nikkita
+{/* ---------- O QUE VOCÊ PODE FAZER ---------- */}
 
-- **Donos de e-commerce** com base grande e subutilizada, que querem parar de queimar verba em público frio
-- **Gestores de tráfego** que perdem horas por semana exportando e subindo lista na mão
-- **Agências** que gerenciam várias contas e precisam de segmentação consistente em todas
-- **Times de CRM** que querem alinhar a comunicação de e-mail com o que está rodando em mídia paga
+<div style={{ padding: "60px 20px", maxWidth: "1100px", margin: "0 auto" }}>
+  <h2 style={{ fontSize: "22px", fontWeight: "600", marginBottom: "24px" }}>
+    O que você pode fazer
+  </h2>
 
----
+  <div
+    style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+    gap: "24px",
+    marginBottom: "48px"
+  }}
+  >
+    <Card icon="plug" title="Conectar sua loja (em breve)" href="/conexoes/visao-geral">
+      Integre sua Nuvemshop em poucos cliques e importe todo o seu histórico.
+    </Card>
 
-## O que a Nikkita **não** é
+    <Card icon="chart-pie" title="Entender sua base (em breve)" href="/segmentos/analise-rfm">
+      Veja seus clientes classificados automaticamente em Campeões, Em risco, Hibernando, Inativos e Novos.
+    </Card>
 
-Para evitar mal-entendido logo no começo:
+    <Card icon="meta" title="Ativar no Meta Ads (em breve)" href="/ativacao/meta-ads">
+      Envie públicos direto para o Gerenciador e use em qualquer campanha.
+    </Card>
 
-- **Não é uma ferramenta de disparo.** A Nikkita cria e entrega os públicos; quem faz o anúncio ou o e-mail continua sendo você, nas suas plataformas.
-- **Não substitui seu e-commerce.** Ela lê os dados da sua loja, mas não altera nada lá dentro.
-- **Não vende nem compartilha sua base.** Seus dados são seus e só vão para as contas de anúncio que você mesmo autorizar e conectar.
+    <Card icon="file-csv" title="Exportar em CSV (em breve)" href="/segmentos/exportar-csv">
+      Prefere subir manualmente ou usar em outra ferramenta? Baixe quando quiser.
+    </Card>
 
----
+    <Card icon="shield-check" title="Trabalhar com segurança (em breve)" href="/seguranca/como-protegemos-seus-dados">
+      Dados de contato criptografados antes de sair da plataforma, no padrão exigido pelo Meta.
+    </Card>
 
-## Próximos passos
+  </div>
 
-<CardGroup cols={2}>
-  <Card title="Como funciona" icon="route" href="/como-funciona">
-    A jornada completa em 3 passos, do zero até o primeiro público no ar.
-  </Card>
+<h2 style={{ fontSize: "22px", fontWeight: "600", marginBottom: "24px" }}>
+  Primeiros passos
+</h2>
 
-  <Card title="Primeiros passos" icon="rocket" href="/primeiros-passos">
-    Um checklist prático para você conectar a loja e ver sua base segmentada hoje.
-  </Card>
-</CardGroup>
+  <div
+    style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+    gap: "24px",
+    marginBottom: "48px"
+  }}
+  >
+    <Card icon="route" title="Como funciona" href="/como-funciona">
+      A jornada em 3 passos: conectar, segmentar e ativar.
+    </Card>
+
+    <Card icon="rocket" title="Configurar sua conta" href="/primeiros-passos">
+      O checklist do zero até o primeiro público no ar.
+    </Card>
+
+    <Card icon="lightbulb" title="Estratégias prontas (em breve)" href="/estrategias/recuperar-clientes-inativos">
+      Casos de uso completos: qual público usar, onde ativar e o que medir.
+    </Card>
+
+    <Card icon="book" title="Glossário (em breve)" href="/glossario">
+      RFM, match rate, público dinâmico e outros termos explicados.
+    </Card>
+
+  </div>
+</div>
+
+{/* ---------- SAIBA MAIS ---------- */}
+
+<div
+  style={{
+  padding: "60px 20px",
+  maxWidth: "1100px",
+  margin: "0 auto",
+  borderTop: "1px solid var(--border, rgba(128,128,128,0.15))"
+}}
+>
+  <h2 style={{ fontSize: "26px", fontWeight: "600", marginBottom: "28px" }}>
+    Saiba mais sobre a Nikkita
+  </h2>
+
+  <div
+    style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+    gap: "24px"
+  }}
+  >
+    <Card icon="circle-question" title="Perguntas frequentes (em breve)" href="/suporte/perguntas-frequentes">
+      As dúvidas que mais aparecem nas primeiras semanas de uso.
+    </Card>
+
+    <Card icon="lock" title="Segurança e privacidade (em breve)" href="/seguranca/lgpd">
+      Como tratamos seus dados e quais seus direitos.
+    </Card>
+
+    <Card icon="headset" title="Falar com a equipe (em breve)" href="/suporte/falar-com-a-equipe">
+      Nosso time acompanha sua configuração de perto. Chame quando precisar.
+    </Card>
+
+  </div>
+</div>

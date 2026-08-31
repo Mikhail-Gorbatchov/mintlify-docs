@@ -12,57 +12,102 @@
     "dark": "/images/Color_Icon.png"
   },
   "navigation": {
-    "pages": [
+    "tabs": [
       {
-        "group": "Getting Started",
+        "tab": "Comece aqui",
         "pages": [
-          "index",
-          "quickstart"
+          "index"
+        ]
+      },
+      {
+        "tab": "Documentação",
+        "pages": [
+          {
+            "group": "Comece por aqui",
+            "icon": "rocket",
+            "pages": [
+              "introducao",
+              "como-funciona",
+              "primeiros-passos"
+            ]
+          },
+          {
+            "group": "Conexões",
+            "icon": "plug",
+            "pages": [
+              "conexoes/visao-geral"
+            ]
+          },
+          {
+            "group": "Segmentos",
+            "icon": "chart-pie",
+            "pages": [
+              "segmentos/analise-rfm",
+              "segmentos/construtor-de-publicos",
+              "segmentos/exportar-csv"
+            ]
+          },
+          {
+            "group": "Ativação",
+            "icon": "bullseye",
+            "pages": [
+              "ativacao/visao-geral-da-ativacao",
+              "ativacao/meta-ads"
+            ]
+          },
+          {
+            "group": "Estratégias",
+            "icon": "lightbulb",
+            "pages": [
+              "estrategias/recuperar-clientes-inativos"
+            ]
+          },
+          {
+            "group": "Segurança",
+            "icon": "shield-halved",
+            "pages": [
+              "seguranca/como-protegemos-seus-dados",
+              "seguranca/lgpd"
+            ]
+          },
+          {
+            "group": "Suporte",
+            "icon": "headset",
+            "pages": [
+              "suporte/perguntas-frequentes",
+              "suporte/falar-com-a-equipe"
+            ]
+          },
+          {
+            "group": "Referência",
+            "icon": "book",
+            "pages": [
+              "glossario"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Roadmap",
+        "pages": [
+          "roadmap"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Plataforma",
+          "href": "https://app.nikkita.com.br",
+          "icon": "grid-2"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Suporte",
+          "href": "https://nikkita.com.br/suporte",
+          "icon": "headset"
         }
       ]
-    },
-    "tabs": [
-      {
-        "tab": "Comece aqui",
-        "pages": [
-          "untitled-page-5"
-        ]
-      },
-      {
-        "tab": "Documentação",
-        "pages": [
-          "index",
-          "untitled-page",
-          "untitled-page-3",
-          {
-            "group": "Conectar sua loja",
-            "pages": [
-              "untitled-page-4"
-            ]
-          },
-          {
-            "group": "Clientes e Segmentos",
-            "pages": [
-              "untitled-page-4-2"
-            ]
-          }
-        ]
-      }
-    ]
+    }
   },
   "logo": {
     "light": "/images/Color_vertical.png",
@@ -76,18 +121,14 @@
         "label": "Suporte"
       },
       {
-        "href": "https://app.nikkita.com.br",
-        "label": "Plataforma"
-      },
-      {
         "href": "https://nikkita.com.br/planos",
         "label": "Planos e Preços"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Plataforma",
+      "href": "https://app.nikkita.com.br"
     }
   },
   "contextual": {
