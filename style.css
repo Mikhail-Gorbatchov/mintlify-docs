@@ -1,0 +1,10 @@
+/* Logo do header: a arte é vertical (empilhada), entao precisa de mais altura
+   do que o padrao do tema para ficar legivel. */
+#navbar .h-7,
+#navbar img[alt="light logo"],
+#navbar img[alt="dark logo"],
+header img[src*="Color_vertical"] {
+  height: 2.75rem;
+  max-height: 2.75rem;
+  width: auto;
+}
