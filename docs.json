@@ -123,6 +123,17 @@
       "vscode"
     ]
   },
+  "seo": {
+    "indexing": "navigable",
+    "metatags": {
+      "og:site_name": "Nikkita",
+      "og:type": "website",
+      "og:locale": "pt_BR",
+      "og:url": "https://docs.nikkita.com.br",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@nikkita"
+    }
+  },
   "background": {
     "color": {
       "dark": "#161616"
