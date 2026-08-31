@@ -1,0 +1,110 @@
+---
+title: "Primeiros passos"
+---
+
+Este guia leva você do zero até ter um público real rodando nas suas campanhas. A parte que exige sua atenção leva poucos minutos; o resto é a Nikkita processando.
+
+<Tip>
+  Você não precisa fazer tudo de uma vez. Cada etapa já entrega valor sozinha — dá para parar no passo 3 e voltar depois.
+</Tip>
+
+---
+
+<Steps>
+  <Step title="Crie sua conta e informe os dados da empresa">
+    No primeiro acesso pedimos apenas o essencial para identificar seu negócio: nome da empresa, segmento e tamanho aproximado da operação.
+
+    Isso leva menos de um minuto e nos ajuda a calibrar as recomendações de público para o seu tipo de loja. Você pode ajustar essas informações depois em **Conta**.
+  </Step>
+  <Step title="Conecte sua loja">
+    Vá em **Conexões** e escolha sua plataforma — suportamos Nuvemshop até agora (novas integrações estão sendo desenvolvidas, acompanhe aqui o nosso roadmap). Você será levado para a tela da própria plataforma para autorizar o acesso e voltará automaticamente para a Nikkita.
+
+    Não é preciso gerar chave, token ou instalar nada manualmente.
+
+    <Warning>
+      Você precisa ser administrador da loja para autorizar a conexão. Se quem está configurando não tiver esse acesso, o passo vai falhar na tela da plataforma.
+    </Warning>
+  </Step>
+  <Step title="Aguarde a importação inicial">
+    A Nikkita começa a puxar seu histórico de clientes e pedidos assim que a conexão é feita. Lojas pequenas ficam prontas em minutos; bases grandes podem levar algumas horas.
+
+    Você pode fechar a página — avisamos quando terminar. Enquanto isso, alguns números aparecem parciais e vão se completando.
+  </Step>
+  <Step title="Explore seus segmentos prontos">
+    Terminada a importação, abra **Segmentos**. Seus clientes já estarão classificados em grupos como Campeões, Em risco e Hibernando, cada um com a quantidade de pessoas.
+
+    Vale gastar alguns minutos aqui antes de qualquer outra coisa: é a primeira leitura real da sua base, e normalmente já indica onde está o dinheiro parado.
+  </Step>
+  <Step title="Escolha um público para começar">
+    Nossa sugestão para o primeiro teste: **Clientes em risco**. É um grupo que já comprou de você, ainda lembra da sua marca e está prestes a esfriar — costuma ser o de melhor retorno em campanha de reativação.
+
+    Se preferir escalar em vez de reativar, use **Campeões** como base de público semelhante (lookalike).
+  </Step>
+  <Step title="Conecte uma conta de anúncio e ative">
+    Em **Ativação**, conecte a conta onde sua verba está — Meta, Google ou TikTok — e envie o público escolhido. Em poucos minutos ele aparece no gerenciador da plataforma, pronto para usar em uma campanha.
+
+    Ligue o botão de **sincronização automática** para que ele se mantenha atualizado sem você precisar repetir o processo.
+
+    <Note>
+      Sem conta de anúncio conectada? Use **Exportar CSV** no próprio segmento e suba manualmente. O resultado é o mesmo, só não se atualiza sozinho.
+    </Note>
+  </Step>
+</Steps>
+
+---
+
+## Como saber se deu certo
+
+<CardGroup cols={2}>
+  <Card title="A loja está conectada" icon="circle-check">
+    O status em **Conexões** aparece como ativo e mostra a data da última atualização de dados.
+  </Card>
+
+  <Card title="Os segmentos têm gente" icon="users">
+    Cada segmento exibe uma contagem de clientes. Se todos estiverem zerados, a importação ainda não terminou.
+  </Card>
+
+  <Card title="O público chegou na plataforma" icon="paper-plane">
+    Abra o gerenciador do Meta, Google ou TikTok e procure o público pelo nome. Ele aparece com o mesmo nome que tem na Nikkita.
+  </Card>
+
+  <Card title="O match rate foi calculado" icon="percent">
+    Depois de algumas horas, a plataforma de anúncio informa quantas pessoas ela conseguiu identificar. É normal não ser 100%.
+  </Card>
+</CardGroup>
+
+---
+
+## Problemas comuns no começo
+
+<AccordionGroup>
+  <Accordion title="A importação parece travada">
+    Bases com muitos anos de histórico demoram mais. Se passar de 24 horas sem avanço, fale com a gente — normalmente é uma permissão faltando na loja.
+  </Accordion>
+
+  <Accordion title="Um segmento veio vazio ou muito pequeno">
+    Isso costuma ser real, não um erro. Lojas novas ainda não têm clientes recorrentes suficientes para preencher grupos como Campeões ou Hibernando. O quadro muda conforme o histórico cresce.
+  </Accordion>
+
+  <Accordion title="O público não apareceu no gerenciador de anúncios">
+    As plataformas levam de alguns minutos a algumas horas para processar. Além disso, cada uma exige um tamanho mínimo de lista — públicos muito pequenos podem ser recusados.
+  </Accordion>
+
+  <Accordion title="O match rate veio baixo">
+    Depende da qualidade dos dados de contato na sua loja. Bases com muitos pedidos de convidado, sem telefone ou com e-mail temporário identificam menos pessoas.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Próximos passos
+
+<CardGroup cols={2}>
+  <Card title="Estratégias prontas" icon="lightbulb" href="/estrategias/recuperar-clientes-inativos">
+    Casos de uso completos: qual público usar, onde ativar e o que medir.
+  </Card>
+
+  <Card title="Construtor de públicos" icon="filter" href="/segmentos/construtor-de-publicos">
+    Quando os segmentos prontos não bastam, monte o seu.
+  </Card>
+</CardGroup>

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Nikkita",
+  "colors": {
+    "primary": "#0094E4",
+    "light": "#0094E4",
+    "dark": "#0094E4"
+  },
+  "favicon": {
+    "light": "/images/Color_Icon.png",
+    "dark": "/images/Color_Icon.png"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    },
+    "tabs": [
+      {
+        "tab": "Comece aqui",
+        "pages": [
+          "untitled-page-5"
+        ]
+      },
+      {
+        "tab": "Documentação",
+        "pages": [
+          "index",
+          "untitled-page",
+          "untitled-page-3",
+          {
+            "group": "Conectar sua loja",
+            "pages": [
+              "untitled-page-4"
+            ]
+          },
+          {
+            "group": "Clientes e Segmentos",
+            "pages": [
+              "untitled-page-4-2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/Color_vertical.png",
+    "dark": "/images/Color_vertical.png",
+    "href": "https://docs.nikkita.com.br"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://nikkita.com.br/suporte",
+        "label": "Suporte"
+      },
+      {
+        "href": "https://app.nikkita.com.br",
+        "label": "Plataforma"
+      },
+      {
+        "href": "https://nikkita.com.br/planos",
+        "label": "Planos e Preços"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://app.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "background": {
+    "color": {
+      "dark": "#161616"
+    }
+  }
+}
