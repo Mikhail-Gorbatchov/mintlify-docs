@@ -15,9 +15,7 @@
     "tabs": [
       {
         "tab": "Comece aqui",
-        "pages": [
-          "index"
-        ]
+        "pages": ["index"]
       },
       {
         "tab": "Documentação",
@@ -25,18 +23,12 @@
           {
             "group": "Comece por aqui",
             "icon": "rocket",
-            "pages": [
-              "introducao",
-              "como-funciona",
-              "primeiros-passos"
-            ]
+            "pages": ["introducao", "como-funciona", "primeiros-passos"]
           },
           {
             "group": "Conexões",
             "icon": "plug",
-            "pages": [
-              "conexoes/visao-geral"
-            ]
+            "pages": ["conexoes/visao-geral"]
           },
           {
             "group": "Segmentos",
@@ -50,25 +42,17 @@
           {
             "group": "Ativação",
             "icon": "bullseye",
-            "pages": [
-              "ativacao/visao-geral-da-ativacao",
-              "ativacao/meta-ads"
-            ]
+            "pages": ["ativacao/visao-geral-da-ativacao", "ativacao/meta-ads"]
           },
           {
             "group": "Estratégias",
             "icon": "lightbulb",
-            "pages": [
-              "estrategias/recuperar-clientes-inativos"
-            ]
+            "pages": ["estrategias/recuperar-clientes-inativos"]
           },
           {
             "group": "Segurança",
             "icon": "shield-halved",
-            "pages": [
-              "seguranca/como-protegemos-seus-dados",
-              "seguranca/lgpd"
-            ]
+            "pages": ["seguranca/como-protegemos-seus-dados", "seguranca/lgpd"]
           },
           {
             "group": "Suporte",
@@ -81,17 +65,13 @@
           {
             "group": "Referência",
             "icon": "book",
-            "pages": [
-              "glossario"
-            ]
+            "pages": ["glossario"]
           }
         ]
       },
       {
         "tab": "Roadmap",
-        "pages": [
-          "roadmap"
-        ]
+        "pages": ["roadmap"]
       }
     ],
     "global": {
@@ -110,8 +90,8 @@
     }
   },
   "logo": {
-    "light": "/images/Color_vertical.png",
-    "dark": "/images/Color_vertical.png",
+    "light": "/images/Color_Icon.png",
+    "dark": "/images/Color_Icon.png",
     "href": "https://docs.nikkita.com.br"
   },
   "navbar": {
