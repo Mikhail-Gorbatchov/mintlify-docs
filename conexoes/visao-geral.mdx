@@ -1,11 +1,66 @@
 ---
 title: "Visão geral das conexões"
-sidebarTitle: "Visão geral das conexões (em breve)"
 description: "Como conectar suas fontes de dados à Nikkita."
 ---
 
+Uma conexão é o que liga sua loja à Nikkita. Você autoriza o acesso uma vez, na tela da própria plataforma, e a Nikkita passa a ler seu histórico de clientes e pedidos para montar os segmentos.
+
+Não é preciso gerar chave, copiar token ou instalar nada manualmente. E o acesso é somente de leitura: nenhum dado é alterado na sua loja.
+
+---
+
+## Plataformas disponíveis
+
+<CardGroup cols={2}>
+  <Card title="Nuvemshop" icon="plug" href="/conexoes/nuvemshop">
+    Disponível. Conecte sua loja e importe o histórico automaticamente.
+  </Card>
+
+  <Card title="Tray Commerce" icon="clock">
+    Em desenvolvimento. Acompanhe no [roadmap](/roadmap).
+  </Card>
+</CardGroup>
+
 <Note>
-  **Em breve.** Esta página ainda está sendo escrita. Enquanto isso, veja [Como funciona](/como-funciona) ou [Primeiros passos](/primeiros-passos).
+  Sua plataforma ainda não está na lista? [Fale com a nossa equipe](https://nikkita.com.br/suporte) — a demanda de vocês é o que define a ordem das próximas integrações.
 </Note>
 
-Estamos preparando este conteúdo. Se você precisa dessa informação agora, [fale com a nossa equipe](https://nikkita.com.br/suporte) — respondemos rápido.
+---
+
+## O que acontece depois de conectar
+
+<Steps>
+  <Step title="Importação inicial">
+    A Nikkita puxa seu histórico de clientes, pedidos, produtos e carrinhos. Lojas pequenas ficam prontas em minutos; bases grandes podem levar algumas horas.
+  </Step>
+
+  <Step title="Segmentação automática">
+    Terminada a importação, seus clientes já aparecem classificados em **Segmentos**, com a contagem de pessoas em cada grupo.
+  </Step>
+
+  <Step title="Sincronização contínua">
+    A loja continua conectada. Pedidos novos entram sozinhos e os segmentos se atualizam sem nova importação.
+  </Step>
+</Steps>
+
+---
+
+## Acompanhar o status
+
+A tela de **Conexões** mostra, para cada loja conectada, se ela está ativa e qual foi a data da última atualização de dados. É o primeiro lugar para olhar quando um número parecer desatualizado.
+
+Se a conexão cair — uma autorização revogada na loja, por exemplo — o status muda e basta refazer a autorização para retomar de onde parou.
+
+---
+
+## Próximos passos
+
+<CardGroup cols={2}>
+  <Card title="Conectar a Nuvemshop" icon="plug" href="/conexoes/nuvemshop">
+    O passo a passo completo, da autorização à primeira importação.
+  </Card>
+
+  <Card title="Como protegemos seus dados (em breve)" icon="shield-check" href="/seguranca/como-protegemos-seus-dados">
+    O que a Nikkita acessa, como armazena e o que nunca sai da plataforma.
+  </Card>
+</CardGroup>

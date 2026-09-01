@@ -1,0 +1,159 @@
+---
+title: "Conectar a Nuvemshop"
+sidebarTitle: "Nuvemshop"
+description: "Autorize a Nikkita a ler os dados da sua loja Nuvemshop."
+---
+
+## Antes de começar
+
+- Tenha uma conta na Nikkita criada. Se ainda não criou, comece por [Primeiros passos](/primeiros-passos).
+- Você precisa ser **administrador** da loja Nuvemshop que vai conectar.
+- Sua loja precisa ter histórico de pedidos. Uma loja sem vendas conecta normalmente, mas os segmentos vão nascer vazios.
+
+Conectar a Nuvemshop autoriza a Nikkita a ler o histórico da sua loja — clientes, pedidos, produtos e carrinhos — e transformá-lo em segmentos prontos para anunciar. A autorização é feita na própria Nuvemshop, sem copiar chave, token ou instalar nada manualmente.
+
+---
+
+## O que a Nikkita acessa
+
+<CardGroup cols={2}>
+  <Card title="Clientes" icon="users">
+    Nome, dados de contato e a que pedidos cada pessoa está associada.
+  </Card>
+
+  <Card title="Pedidos" icon="receipt">
+    Data, valor e status de cada compra. É o que sustenta a análise RFM.
+  </Card>
+
+  <Card title="Produtos" icon="box">
+    Catálogo e o que foi comprado em cada pedido.
+  </Card>
+
+  <Card title="Carrinhos" icon="cart-shopping">
+    Carrinhos abandonados, para públicos de recuperação.
+  </Card>
+</CardGroup>
+
+A Nikkita **não** altera nada na sua loja: não cria produto, não muda pedido, não envia mensagem para seus clientes. O acesso é somente de leitura, e você pode desconectar quando quiser.
+
+<Note>
+  Os dados de contato dos seus clientes são criptografados antes de sair da Nikkita para qualquer plataforma de anúncio. Veja [Como protegemos seus dados](/seguranca/como-protegemos-seus-dados).
+</Note>
+
+---
+
+## Conectar sua loja
+
+<Steps>
+  <Step title="Abra a Nikkita e vá em Conexões">
+    Entre em [app.nikkita.com.br](https://app.nikkita.com.br) e abra **Conexões** no menu lateral.
+  </Step>
+
+  <Step title="Escolha Nuvemshop">
+    Na lista de plataformas, selecione **Nuvemshop**. A Nikkita leva você para a tela de autorização da própria Nuvemshop.
+  </Step>
+
+  <Step title="Confirme que está na loja certa">
+    Se você administra mais de uma loja, verifique qual delas está logada na Nuvemshop antes de continuar. A conexão vale para a loja que estiver ativa naquela sessão.
+
+    <Tip>
+      Deixe a Nikkita e a Nuvemshop abertas em abas diferentes. Fica mais fácil conferir a loja e voltar ao processo sem perder o caminho.
+    </Tip>
+  </Step>
+
+  <Step title="Autorize o acesso">
+    A Nuvemshop mostra quais permissões a Nikkita está pedindo. Confirme a autorização.
+
+    <Warning>
+      Você precisa ser administrador da loja para autorizar a conexão. Se quem está configurando não tiver esse acesso, o passo vai falhar na tela da plataforma.
+    </Warning>
+  </Step>
+
+  <Step title="Volte para a Nikkita">
+    Você é redirecionado automaticamente. Em **Conexões**, a Nuvemshop passa a aparecer como conectada — e a importação começa na sequência.
+  </Step>
+</Steps>
+
+---
+
+## Importação inicial
+
+Assim que a conexão é feita, a Nikkita começa a puxar seu histórico. Lojas pequenas ficam prontas em minutos; bases com muitos anos de pedidos podem levar algumas horas.
+
+Você pode fechar a página — avisamos quando terminar. Enquanto a importação roda, alguns números aparecem parciais e vão se completando.
+
+Depois dessa primeira carga, a loja continua conectada: pedidos novos entram sozinhos, sem nova importação e sem você precisar repetir a autorização.
+
+---
+
+## Verificar se deu certo
+
+<CardGroup cols={2}>
+  <Card title="A conexão está ativa" icon="circle-check">
+    Em **Conexões**, a Nuvemshop aparece como ativa e mostra a data da última atualização de dados.
+  </Card>
+
+  <Card title="Os segmentos têm gente" icon="chart-pie">
+    Abra **Segmentos**. Cada grupo exibe uma contagem de clientes. Se todos estiverem zerados, a importação ainda não terminou.
+  </Card>
+
+  <Card title="O total bate com sua loja" icon="equals">
+    Compare o número de clientes da Nikkita com o painel da Nuvemshop. Pequenas diferenças são esperadas.
+  </Card>
+
+  <Card title="Os pedidos recentes chegaram" icon="clock-rotate-left">
+    Confira se as compras dos últimos dias já aparecem refletidas nos segmentos.
+  </Card>
+</CardGroup>
+
+---
+
+## Problemas comuns
+
+<AccordionGroup>
+  <Accordion title="A autorização foi recusada na tela da Nuvemshop">
+    Quase sempre é permissão: a conta usada não é administradora da loja. Peça para quem tem esse acesso concluir a autorização, ou eleve suas permissões na Nuvemshop e tente de novo.
+  </Accordion>
+
+  <Accordion title="Conectei a loja errada">
+    Se você administra várias lojas, é possível autorizar a que estava logada por último. Desconecte em **Conexões**, entre na Nuvemshop com a loja correta e refaça a conexão.
+  </Accordion>
+
+  <Accordion title="A importação parece travada">
+    Bases com muitos anos de histórico demoram mais. Se passar de 24 horas sem avanço, [fale com a gente](https://nikkita.com.br/suporte) — normalmente é uma permissão faltando na loja.
+  </Accordion>
+
+  <Accordion title="Um segmento veio vazio ou muito pequeno">
+    Isso costuma ser real, não um erro. Lojas novas ainda não têm clientes recorrentes suficientes para preencher grupos como Campeões ou Hibernando. O quadro muda conforme o histórico cresce.
+  </Accordion>
+
+  <Accordion title="O total de clientes veio menor do que eu esperava">
+    Pedidos cancelados e compras feitas como convidado, sem dados de contato utilizáveis, não geram um cliente identificável. É comum a base analisável ser menor que o total de pedidos da loja.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Desconectar sua loja
+
+Em **Conexões**, abra a Nuvemshop e escolha desconectar. A Nikkita para de ler novos pedidos imediatamente e os segmentos deixam de se atualizar.
+
+Os públicos já enviados para o Meta Ads continuam existindo no gerenciador da plataforma — eles são seus, e a desconexão não os apaga. Só param de receber atualização.
+
+<Note>
+  Para saber o que acontece com os dados já importados e como pedir a exclusão deles, veja [LGPD](/seguranca/lgpd).
+</Note>
+
+---
+
+## Próximos passos
+
+<CardGroup cols={2}>
+  <Card title="Entender os segmentos (em breve)" icon="chart-pie" href="/segmentos/analise-rfm">
+    Como a Nikkita classifica sua base e o que fazer com cada grupo.
+  </Card>
+
+  <Card title="Ativar no Meta Ads (em breve)" icon="meta" href="/ativacao/meta-ads">
+    Envie um público para o gerenciador e ligue a sincronização automática.
+  </Card>
+</CardGroup>

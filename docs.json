@@ -28,7 +28,7 @@
           {
             "group": "Conexões",
             "icon": "plug",
-            "pages": ["conexoes/visao-geral"]
+            "pages": ["conexoes/visao-geral", "conexoes/nuvemshop"]
           },
           {
             "group": "Segmentos",
@@ -129,9 +129,7 @@
       "og:site_name": "Nikkita",
       "og:type": "website",
       "og:locale": "pt_BR",
-      "og:url": "https://docs.nikkita.com.br",
-      "twitter:card": "summary_large_image",
-      "twitter:site": "@nikkita"
+      "og:url": "https://docs.nikkita.com.br"
     }
   },
   "background": {
