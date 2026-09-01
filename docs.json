@@ -34,6 +34,7 @@
             "group": "Segmentos",
             "icon": "chart-pie",
             "pages": [
+              "segmentos/visao-geral",
               "segmentos/analise-rfm",
               "segmentos/construtor-de-publicos",
               "segmentos/exportar-csv"
